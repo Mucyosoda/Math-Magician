@@ -1,13 +1,11 @@
+import React from 'react';
 import './App.css';
+import Calc from './Components/calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Math Magician</h1>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Calc />
+  </div>
+);
 
 export default App;
