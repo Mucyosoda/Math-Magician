@@ -58,7 +58,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   width: 20%;
-  padding-bottom: 8px;
+  padding-bottom: 3.5px;
 }
 
 .operators button {
@@ -96,5 +96,6 @@ button:hover {
 }
 
 .zero {
-  text-align: right;
+  text-align: center;
+  width: 90%;
 }
