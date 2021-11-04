@@ -1,11 +1,11 @@
 import React from 'react';
-import DoCalculation from './components/calculator.js';
+import DoCalculation from './components/calculator';
 import './App.css';
 // eslint-disable-next-line react/prefer-stateless-function
 class App extends React.Component {
   render() {
     return (
-      <div className='App'>
+      <div className="App">
         <DoCalculation />
       </div>
     );
