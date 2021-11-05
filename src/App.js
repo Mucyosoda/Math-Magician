@@ -1,11 +1,24 @@
-import React from 'react';
-import DoCalculation from './components/calculator';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import Calculator from './components/calculator';
+import Header from './components/Header';
+import Quote from './components/QuotePage';
+import Home from './components/Welcome';
 
 const App = () => (
-  <div className="App">
-    <DoCalculation />
-  </div>
+  <>
+    <Header />
+    <Switch>
+      <Route path="/" exact>
+        <Home />
+      </Route>
+      <Route path="/calculator">
+        <Calculator />
+      </Route>
+      <Route path="/quote">
+        <Quote />
+      </Route>
+    </Switch>
+  </>
 );
 
 export default App;
