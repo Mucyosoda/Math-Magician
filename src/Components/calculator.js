@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './calculator.css';
-import calculate from './logic/calculate';
+import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [object, setObject] = useState({});
@@ -34,7 +34,7 @@ const Calculator = () => {
   }
   return (
     <div>
-      <h3 className="mathshead">Calculator</h3>
+      <h3 className="mathshead">Lets do some Maths</h3>
       <div className="calc-container">
         <div>
           <div className="calc-screen">

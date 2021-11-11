@@ -3,14 +3,18 @@ import styles from './Quote.css';
 
 const Quote = () => (
   <p className={styles.quote}>
-    A paragraph is a series of sentences that are organized and coherent, and are all
-    related to a single topic. Almost every piece of writing you do that is longer than a few
-    sentences should be organized into paragraphs.
+    Mathematics is not about numbers, equations, computations or algorithm:
+    It is about understanding- Williams Paul Thurston.
     <br />
     <br />
-    sentences that are organized and coherent, and are all ra s
+    Without mathematics, there’s nothing you can do. Everything around you is mathematics.
+    Everything around you is numbers.
+    — Shakuntala Devi,
     <br />
-    Math Magicians
+    <br />
+    As far as the laws of mathematics refer to reality, they are not certain,
+    and as far as they are certain,they do not refer to reality.
+    — Albert Einstein
   </p>
 );
 
