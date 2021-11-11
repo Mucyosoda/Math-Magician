@@ -1,5 +1,5 @@
 import { Switch, Route } from 'react-router-dom';
-import Calculator from './components/calculator';
+import Calculator from './components/Calculator';
 import Header from './components/Header';
 import Quote from './components/QuotePage';
 import Home from './components/HomePage';
