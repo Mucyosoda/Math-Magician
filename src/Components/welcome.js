@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Welcome.css';
+import styles from './Welcomee.css';
 
 const Home = () => (
   <div className={styles.header}>
