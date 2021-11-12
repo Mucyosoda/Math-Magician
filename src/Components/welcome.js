@@ -3,7 +3,7 @@ import styles from './Welcome.css';
 
 const Home = () => (
   <div className={styles.header}>
-    <h1> A paragraph is a series of sentencessss</h1>
+    <h1> A paragraph is a series of sentences</h1>
     <p>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry standard dummy text ever since the
