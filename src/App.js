@@ -1,8 +1,8 @@
 import { Switch, Route } from 'react-router-dom';
-import Calculator from './components/calculator';
-import Header from './components/Header';
-import Quote from './components/QuotePage';
-import Welcome from './components/Welcome';
+import Calculator from './Components/Calculator';
+import Header from './Components/header';
+import Quote from './Components/quotePage';
+import Welcome from './Components/welcome';
 
 const App = () => (
   <>
