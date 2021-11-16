@@ -9,6 +9,7 @@ this project can solve basic math calculation
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Demo](https://silly-hopper-fd0311.netlify.app/)
 
 ## Available Scripts
 
